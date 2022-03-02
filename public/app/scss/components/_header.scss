@@ -1,0 +1,14 @@
+.nav-flex {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.nav-item {
+  color: #505353;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+}
