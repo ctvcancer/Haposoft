@@ -1,0 +1,54 @@
+.whyhapolearn {
+    .why_png {
+        background-size: 100% 100%;
+        background-position: top right;
+        background-repeat: no-repeat;
+        height: 740px;
+        display: flex;
+        align-items: center;
+        margin-top: 116px;
+
+        .mb {
+            position: absolute;
+            width: 478.32px;
+            height: 478.32px;
+            left: -37.22px;
+            top: 1994px;
+        }
+
+        .title {
+            color: #ffffff;
+            position: absolute;
+            width: 560px;
+            height: 102px;
+            left: 64px;
+            top: 2522px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 70px;
+            line-height: 86px;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        .why_content {
+            position: absolute;
+            width: 600px;
+            height: 25px;
+            left: 100px;
+            top: 2680px;
+            color: #ffffff;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .device {
+            position: absolute;
+            width: 720px;
+            height: 480px;
+            left: 600px;
+            top: 2380px;
+        }
+    }
+}
+
