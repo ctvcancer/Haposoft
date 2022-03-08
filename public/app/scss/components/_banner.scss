@@ -1,7 +1,7 @@
 .banner {
     position: relative;
   
-    .banner_png {
+    .banner-png {
       background-size: 100% 100%;
       background-position: top right;
       background-repeat: no-repeat;
@@ -46,7 +46,7 @@
   
   @media only screen and (max-width: 1441px) {
     .banner {
-      .banner_png {
+      .banner-png {
         height: 655px;
   
         .banner-content {
@@ -70,7 +70,7 @@
   
   @media only screen and (max-width: 1100px) {
     .banner {
-      .banner_png {
+      .banner-png {
         height: 500px;
   
         .banner-content {
@@ -97,7 +97,7 @@
   
   @media only screen and (max-width: 768px) {
     .banner {
-      .banner_png {
+      .banner-png {
         height: 350px;
   
         .banner-content {
@@ -136,7 +136,7 @@
   
   @media only screen and (max-width: 550px) {
     .banner {
-      .banner_png {
+      .banner-png {
         max-height: 250px;
         background-size: 120%, 100%;
   
@@ -177,7 +177,7 @@
   
   @media only screen and (max-width: 425px) {
     .banner {
-      .banner_png {
+      .banner-png {
         height: 200px;
         background-size: 120%, 100%;
   
