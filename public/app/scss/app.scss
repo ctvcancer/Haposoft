@@ -1,6 +1,7 @@
-body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
+@import './variable.scss';
+@import 'components/header';
+@import './components/banner';
+@import './components/listCourses';
+@import './components/otherCourses';
+@import './components/whyhapolearn';
+@import './components/feedback/feedback.scss';
