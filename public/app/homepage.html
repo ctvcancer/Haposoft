@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hapolearn</title>
-    <link rel="stylesheet" href="./public/css/app.css">
+    <title>HapoLearn</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./public/css/app.css">
+
 </head>
 
 <body>
     <div class="container">
+        <!-- Begin navigation bar -->
         <div class="nav">
             <div class="nav-box">
                 <img src="./public/img/hapo-learn-logo.png" alt="Logo hapo learn" class="nav-box-img">
@@ -26,12 +29,15 @@
             </ul>
             <div class="nav-icon"><i class="fa-solid fa-bars nav-bar-icon"></i></div>
         </div>
+        <!-- End navigation bar -->
 
+        <!-- Begin banner -->
         <div class="banner">
-            <div class="banner-png" style="background-image: url('./public/img/hapo-learn-banner.png');">
+            <div class="banner-bg" >
                 <div class="banner-content">
                     <p class="banner-content-title">Learn Anytime, Anywhere</p>
-                    <p class="banner-content-subtitle">at HapoLearn <img src="./public/img/Group 6.png" alt="OWL"> !</p>
+                    <p class="banner-content-subtitle">at HapoLearn <img src="./public/img/owl.png"
+                            alt="icon con cú!" class="banner-icon-owl"> !</p>
                     <p class="banner-content-desc">
                         Interactive lessons. "on-the-top"<br>practice, per supports
                     </p>
@@ -39,11 +45,13 @@
                 </div>
             </div>
         </div>
+        <!-- End banner -->
 
+        <!-- Begin list course -->
         <div class="card-list">
             <div class="card-item">
                 <div class="card-img card-html-bg">
-                    <img src="./public/img/Rectangle 7.png" class="card-box-img" alt="Html Js CSS">
+                    <img src="./public/img/html_js_css.png" class="card-box-img" alt="logo html css js">
                 </div>
                 <div class="card-content">
                     <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -54,7 +62,7 @@
             </div>
             <div class="card-item">
                 <div class="card-img card-lavarel-bg">
-                    <img src="./public/img/laravel-1-logo-black-and-white 1.png" class="card-box-img" alt="logo laravel">
+                    <img src="./public/img/logo_laravel.png" class="card-box-img" alt="logo lavarel">
                 </div>
                 <div class="card-content">
                     <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -65,7 +73,7 @@
             </div>
             <div class="card-item">
                 <div class="card-img card-php-bg">
-                    <img src="./public/img/Rectangle 15.png" class="card-box-img" alt="php">
+                    <img src="./public/img/logo_php.png" class="card-box-img" alt="logo php">
                 </div>
                 <div class="card-content">
                     <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -75,13 +83,15 @@
                 </div>
             </div>
         </div>
+        <!-- End list course -->
 
+        <!-- Begin other courses -->
         <div class="other-courses">
             <div class="other-courses-title">Other Courses</div>
             <div class="card-list other-courses-list">
                 <div class="card-item">
                     <div class="card-img card-html-bg">
-                        <img src="./public/img/CSS.png" class="card-box-img" alt="CSS.png">
+                        <img src="./public/img/html_js_css.png" class="card-box-img" alt="logo html css js">
                     </div>
                     <div class="card-content">
                         <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -92,7 +102,7 @@
                 </div>
                 <div class="card-item">
                     <div class="card-img card-lavarel-bg">
-                        <img src="./public/img/Group.png" class="card-box-img" alt="Rails">
+                        <img src="./public/img/logo_laravel.png" class="card-box-img" alt="logo lavarel">
                     </div>
                     <div class="card-content">
                         <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -103,7 +113,7 @@
                 </div>
                 <div class="card-item">
                     <div class="card-img card-php-bg">
-                        <img src="./public/img/java 1.png" class="card-box-img" alt="java">
+                        <img src="./public/img/logo_php.png" class="card-box-img" alt="logo php">
                     </div>
                     <div class="card-content">
                         <p class="card-content-title">HTML/CSS/js Tutorial</p>
@@ -115,52 +125,199 @@
             </div>
             <a href="#" class="other-courses-link">View All Our Courses <i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
+        <!-- End other courses -->
 
-        <div class="whyhapolearn">
-            <div class="why_png" style="background-image: url('./public/img/Rectangle\ 17.png');">
-                <div class="mb">
-                    <img src="./public/img/mb 1.png" alt="mb" />
-                </div>
-                <div>
-                    <div class="title">
-                        <p> Why Hapolearn? </p>
+        <!-- Begin why learn -->
+        <div class="why-learn">
+            <div class="why-learn-a-macbook">
+                <img src="./public/img/mb 1.png" alt="ảnh macbook" class="why-learn-a-macbook-img">
+            </div>
+            <div class="why-title">
+                <p class="why-title-text">
+                    Why HapoLearn?
+                </p>
+            </div>
+            <div class="why-content">
+                <p class="why-content-desc">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span class="why-content-desc-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </span>
+                </p>
+                <p class="why-content-desc">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span class="why-content-desc-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </span>
+                </p>
+                <p class="why-content-desc">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span class="why-content-desc-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </span>
+                </p>
+                <p class="why-content-desc">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span class="why-content-desc-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </span>
+                </p>
+                <p class="why-content-desc">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span class="why-content-desc-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </span>
+                </p>
+            </div>
+            <div class="why-learn-macbook-devices">
+                <img src="./public/img/devices.png" alt="ảnh macbook"
+                    class="why-learn-macbook-devices-img">
+            </div>
+        </div>
+        <!-- End why learn -->
+
+        <!-- Begin feedback -->
+        <div class="feedback other-courses">
+            <div class="other-courses-title">Feedback</div>
+            <div class="feedback-desc">
+                <p class="feedback-text">What other students turned professionals have to say about us after learning
+                    with us and reaching their goals</p>
+            </div>
+            <div class="feedback-carousel">
+                <div class="feedback-content">
+                    <div class="feedback-box">
+                        <p class="feedback-box-content">
+                            “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming
+                            a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                        </p>
                     </div>
-                    <div class="why_content">
-                        <p class="text"> <img src="./public/img/icon.png " /> Interactive lessons, "on the go" practice,
-                            peer suport.
-                        </p>
-                        <p> <img src="./public/img/icon.png " /> Interactive lessons, "on the go" practice, peer suport.
-                        </p>
-                        <p> <img src="./public/img/icon.png " /> Interactive lessons, "on the go" practice, peer suport.
-                        </p>
-                        <p> <img src="./public/img/icon.png " /> Interactive lessons, "on the go" practice, peer suport.
-                        </p>
-                        <p> <img src="./public/img/icon.png " /> Interactive lessons, "on the go" practice, peer suport.
-                        </p>
+                    <div class="feedback-user">
+                        <div class="feedback-avatar">
+                            <img src="./public/img/avatar_user.png" alt="avatar user" class="feedback-avatar-img">
+                        </div>
+                        <div class="feedback-user-info">
+                            <p class="feedback-user-info-name">Trần Tuấn Hoàng</p>
+                            <p class="feedback-user-info-lang">Python</p>
+                            <div class="feedback-user-star">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_w.png" alt="star-white">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img class="device" src="./public/img/transparent-1911160_1280.png" />
+                <div class="feedback-content">
+                    <div class="feedback-box">
+                        <p class="feedback-box-content">
+                            “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming
+                            a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                        </p>
+                    </div>
+                    <div class="feedback-user">
+                        <div class="feedback-avatar">
+                            <img src="./public/img/avatar_user.png" alt="avatar user" class="feedback-avatar-img">
+                        </div>
+                        <div class="feedback-user-info">
+                            <p class="feedback-user-info-name">Hoang Anh Nguyen</p>
+                            <p class="feedback-user-info-lang">PHP</p>
+                            <div class="feedback-user-star">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_w.png" alt="star-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-content">
+                    <div class="feedback-box">
+                        <p class="feedback-box-content">
+                            “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming
+                            a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                        </p>
+                    </div>
+                    <div class="feedback-user">
+                        <div class="feedback-avatar">
+                            <img src="./public/img/avatar_user.png" alt="avatar user" class="feedback-avatar-img">
+                        </div>
+                        <div class="feedback-user-info">
+                            <p class="feedback-user-info-name">Trần Tuấn Hoàng</p>
+                            <p class="feedback-user-info-lang">Python</p>
+                            <div class="feedback-user-star">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_w.png" alt="star-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback-content">
+                    <div class="feedback-box">
+                        <p class="feedback-box-content">
+                            “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming
+                            a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                        </p>
+                    </div>
+                    <div class="feedback-user">
+                        <div class="feedback-avatar">
+                            <img src="./public/img/avatar_user.png" alt="Ảnh avatar" class="feedback-avatar-img">
+                        </div>
+                        <div class="feedback-user-info">
+                            <p class="feedback-user-info-name">Hoang Anh Nguyen</p>
+                            <p class="feedback-user-info-lang">PHP</p>
+                            <div class="feedback-user-star">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_y.png" alt="star-yellow">
+                                <img src="./public/img/star_w.png" alt="star-white">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- End feedback -->
 
-        <div class="feedback">
-            <div class="feedback-title">
-                Feedback
+        <!-- Begin start learn -->
+        <div class="start-learn">
+            <div class="start-learn-content">
+                <p class="start-learn-title">Become a member of our
+                    growing community!</p>
+                <button class="start-learn-btn btn">Start Learning Now!</button>
             </div>
         </div>
+        <!-- End start learn -->
 
-        <script src="./js/app.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+        <!-- Begin statistic hapolearn -->
+        <div class="statistic other-courses">
+            <div class="other-courses-title">Statistic</div>
+            <div class="statistic-counter">
+                <div class="statistic-counter-item">
+                    <p class="statistic-counter-title">Courses</p>
+                    <p class="statistic-counter-number">1,586</p>
+                </div>
+                <div class="statistic-counter-item">
+                    <p class="statistic-counter-title">Lessons</p>
+                    <p class="statistic-counter-number">2,689</p>
+                </div>
+                <div class="statistic-counter-item">
+                    <p class="statistic-counter-title">Learners</p>
+                    <p class="statistic-counter-number">16,882</p>
+                </div>
+            </div>
+        </div>
+        <!-- End statistic hapolearn -->
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
